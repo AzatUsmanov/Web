@@ -1,0 +1,60 @@
+main {
+    background: lightgoldenrodyellow;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-header {
+
+    font-size: 40px;
+    font-weight: 100
+}
+
+.cookies-list {
+    text-align: center;
+}
+
+.cookie-image {
+    height: 500px;
+    width: 700px;
+}
+
+.cookie-type {
+    margin-top: 70px;
+    font-size: 26px;
+}
+
+.cookie-name {
+    color: black;
+    font-weight: 30;
+    font-size: 23px;
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 410px;
+
+}
+
+.cookie-price {
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.cookie-price span {
+    background-color: greenyellow;
+
+}
+
+.interesting-fact {
+    margin-top: 60px;
+    text-align: right;
+    text-decoration: underline;
+    line-height: 10px;
+}
+
+.interesting-fact em {
+    text-transform: lowercase;
+    font-weight: 1000;
+}

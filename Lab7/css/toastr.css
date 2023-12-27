@@ -1,0 +1,11 @@
+#toast-container > .toast-success {
+    background-color: #4CAF50; /* Изменение цвета фона */
+    color: white; /* Изменение цвета текста */
+    border: 2px solid black; /* Изменение цвета границы */
+  }
+
+  #toast-container > .toast-error {
+    background-color: brown; /* Изменение цвета фона */
+    color: white; /* Изменение цвета текста */
+    border: 2px solid black; /* Изменение цвета границы */
+  }

@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+main {
+    background: lightgoldenrodyellow;
+    background-size: cover;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.main-header {
+    margin-top: 50px;
+    margin-left: 680px;
+    font-size: 40px;
+    font-weight: 100
+}
+
+.cookies-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+ }
+
+.cookie-image {
+    height: 500px;
+    width: 700px;  
+}
+
+
+.cookie-type {
+    margin-top: 70px;
+    font-size: 26px;
+}
+
+.cookie-name {
+    color: black;
+    font-weight: 30;
+    font-size: 23px;
+    margin-top: 70px;
+    text-align: left;
+    margin-left: 410px;
+
+}
+
+.cookie-price {
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.cookie-price span {
+    background-color: greenyellow;
+
+}
+
+.interesting-fact {
+    margin-top: 60px;
+    text-align: right;
+    text-decoration: underline;
+    line-height: 10px;
+}
+
+.interesting-fact em {
+    text-transform: lowercase;
+    font-weight: 1000;
+}
+
+.ad {
+    height: 600px;
+    width: 800px; 
+}
+.cookie-recipes-title {
+    text-align : center
+}
+.cookie-recipes {
+    display: grid;
+    grid-template-columns: 160px 300px 160px;
+    grid-auto-rows: minmax(50px, auto);
+    justify-content: center;
+    grid-area: content;
+}
+
+.cookie-recipes-item {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.cookie-recipes-item-odd {
+    border: 1px solid black;
+    padding: 10px;
+    color: brown;
+}
+
+.cookie-recipes-item-even {
+    border: 1px solid black;
+    padding: 10px;
+    color: blue;
+}
+
+.menu-list {
+    text-align : center;
+}
+
+.comments-page {
+    text-align : center;
+}
+
+.buy-table {
+    text-align : center;
+    display: hidden;
+}
+
+.buy-table-item {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.active {
+    font-weight: "bold";
+}
+
+
+@media screen and (max-width: 850px) {
+    .cookie-image {
+        height: 125px;
+        width: 175px;      
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .ad {
+        display: none;
+    }
+}
+
+

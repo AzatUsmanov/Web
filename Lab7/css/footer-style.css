@@ -1,0 +1,11 @@
+footer {
+    text-align: center;
+    background : burlywood;
+    background-size: cover;
+}
+
+.contacts {
+    position: absolute;
+    font-weight: 40;
+}
+
